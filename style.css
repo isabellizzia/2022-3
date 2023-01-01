@@ -15,7 +15,7 @@ html {
   }
   
   body {
-    background-color: #F1F1F1;
+    background: linear-gradient(to bottom right, #97b3d0, #a7d3ca, #FF77CC, rgb(227, 195, 187));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ html {
   
   .card {
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -83,7 +83,33 @@ html {
     opacity: 0.75;
     text-align: center;
   }
-  
+  h1{
+    color: beige;
+  }
   h2{
-    top: 1000px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 125px;
+    line-height: 20px;
+    color: antiquewhite;
+    
+  }
+
+  #text{
+    padding-top: 0px;
+  }
+  p{
+    width: 500px;
+    padding-top: 1px;
+    text-align: justify;
+    padding-bottom:5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0%;
   }
