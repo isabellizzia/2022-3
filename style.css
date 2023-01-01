@@ -53,6 +53,7 @@ html {
   .card:hover {
     transform: scale(1) rotate(0deg);
     z-index: 1;
+    
   }
   .card:hover:before {
     opacity: 1;
@@ -95,7 +96,7 @@ html {
     font-size: 125px;
     line-height: 20px;
     color: antiquewhite;
-    
+    margin-right: 50px;
   }
 
   #text{
@@ -112,4 +113,5 @@ html {
     font-size: 15px;
     line-height: 20px;
     margin-top: 0%;
+    margin-right: 50px;
   }
