@@ -49,16 +49,15 @@ html {
     will-change: transform;
   }
   
-  
   .card:hover {
     transform: scale(1) rotate(0deg);
     z-index: 1;
-    
   }
   .card:hover:before {
     opacity: 1;
   }
   
+
   .card:before {
     content: "";
     display: block;
